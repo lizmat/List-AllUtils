@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lizmat/List-AllUtils.svg?branch=master)](https://travis-ci.org/lizmat/List-AllUtils)
+
 NAME
 ====
 
@@ -69,4 +71,6 @@ COPYRIGHT AND LICENSE
 Copyright 2018 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5 version developed by Dave Rolsky.
 
