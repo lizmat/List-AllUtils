@@ -22,8 +22,6 @@ DESCRIPTION
 
 Are you sick of trying to remember whether a particular helper is defined in [List::Util](List::Util), [List::MoreUtils](List::MoreUtils) or [List::UtilsBy](List::UtilsBy)? Now you don't have to remember. This module will export all of the functions that either of those three modules defines.
 
-Note that all function documentation has been shamelessly copied from [List::Util](List::Util), [List::MoreUtils](List::MoreUtils) and [List::UtilsBy](List::UtilsBy).
-
 Which One Wins?
 ---------------
 

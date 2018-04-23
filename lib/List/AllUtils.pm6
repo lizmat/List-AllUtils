@@ -1,6 +1,6 @@
 use v6.c;
 
-class List::AllUtils:ver<0.0.1>:auth<cpan:ELIZABETH> {
+class List::AllUtils:ver<0.0.2>:auth<cpan:ELIZABETH> {
     use List::Util;
     use List::MoreUtils;
     use List::UtilsBy;
@@ -59,9 +59,6 @@ Are you sick of trying to remember whether a particular helper is
 defined in L<List::Util>,  L<List::MoreUtils> or L<List::UtilsBy>? Now you
 don't have to remember. This module will export all of the functions
 that either of those three modules defines.
- 
-Note that all function documentation has been shamelessly copied from
-L<List::Util>, L<List::MoreUtils> and L<List::UtilsBy>.
  
 =head2 Which One Wins?
  
