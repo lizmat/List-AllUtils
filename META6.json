@@ -5,9 +5,9 @@
   ],
   "build-depends" : [ ],
   "depends" : [
-    "List::Util",
-    "List::MoreUtils",
-    "List::UtilsBy"
+    "List::Util:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "List::UtilsBy:ver<0.0.4>:auth<cpan:ELIZABETH>"
   ],
   "description" : "Port of Perl 5's List::AllUtils 0.14",
   "license" : "Artistic-2.0",
@@ -23,5 +23,5 @@
     "CPAN5"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.3"
+  "version" : "0.0.4"
 }
