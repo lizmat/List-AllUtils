@@ -1,9 +1,9 @@
-use v6.c;
+use v6.*;
 
-module List::AllUtils:ver<0.0.4>:auth<cpan:ELIZABETH> {
-    use List::Util:ver<0.0.7>:auth<cpan:ELIZABETH>;
-    use List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>;
-    use List::UtilsBy:ver<0.0.4>:auth<cpan:ELIZABETH>;
+module List::AllUtils:ver<0.0.5>:auth<cpan:ELIZABETH> {
+    use List::Util:ver<0.0.9>:auth<cpan:ELIZABETH>;
+    use List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>;
+    use List::UtilsBy:ver<0.0.6>:auth<cpan:ELIZABETH>;
 
     BEGIN {
         for
@@ -40,7 +40,7 @@ sub EXPORT(*@args, *%_) {
 
 =head1 NAME
 
-List::AllUtils - Port of Perl 5's List::AllUtils 0.14
+Raku port of Perl's List::AllUtils module 0.14
 
 =head1 SYNOPSIS
  
@@ -54,6 +54,9 @@ List::AllUtils - Port of Perl 5's List::AllUtils 0.14
     return List::AllUtils::first { $_ > 5 } @numbers;
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<List::AllUtils> module
+as closely as possible in the Raku Programming Language.
  
 Are you sick of trying to remember whether a particular helper is
 defined in L<List::Util>,  L<List::MoreUtils> or L<List::UtilsBy>? Now you
@@ -103,13 +106,13 @@ and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl
 version developed by Dave Rolsky.
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

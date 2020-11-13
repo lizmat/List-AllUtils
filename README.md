@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/List-AllUtils.svg?branch=master)](https://travis-ci.org/lizmat/List-AllUtils)
-
 NAME
 ====
 
-List::AllUtils - Port of Perl 5's List::AllUtils 0.14
+Raku port of Perl's List::AllUtils module 0.14
 
 SYNOPSIS
 ========
@@ -19,6 +17,8 @@ SYNOPSIS
 
 DESCRIPTION
 ===========
+
+This module tries to mimic the behaviour of Perl's `List::AllUtils` module as closely as possible in the Raku Programming Language.
 
 Are you sick of trying to remember whether a particular helper is defined in [List::Util](List::Util), [List::MoreUtils](List::MoreUtils) or [List::UtilsBy](List::UtilsBy)? Now you don't have to remember. This module will export all of the functions that either of those three modules defines.
 
@@ -66,9 +66,9 @@ Source can be located at: https://github.com/lizmat/List-AllUtils . Comments and
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
-Re-imagined from the Perl 5 version as part of the CPAN Butterfly Plan. Perl 5 version developed by Dave Rolsky.
+Re-imagined from the Perl version as part of the CPAN Butterfly Plan. Perl version developed by Dave Rolsky.
 

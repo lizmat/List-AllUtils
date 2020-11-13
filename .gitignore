@@ -7,3 +7,6 @@
 .precomp/
 /releases/
 /List-AllUtils-*
+/lib/List/Util.pm6
+/lib/List/MoreUtils.pm6
+/lib/List/UtilsBy.pm6

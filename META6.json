@@ -1,27 +1,30 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "cpan:ELIZABETH",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [
-    "List::Util:ver<0.0.7>:auth<cpan:ELIZABETH>",
-    "List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>",
-    "List::UtilsBy:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  "build-depends": [
   ],
-  "description" : "Port of Perl 5's List::AllUtils 0.14",
-  "license" : "Artistic-2.0",
-  "name" : "List::AllUtils",
-  "perl" : "6.c",
-  "provides" : {
-    "List::AllUtils" : "lib/List/AllUtils.pm6"
+  "depends": [
+    "List::Util:ver<0.0.9>:auth<cpan:ELIZABETH>",
+    "List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "List::UtilsBy:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's List::AllUtils module 0.14",
+  "license": "Artistic-2.0",
+  "name": "List::AllUtils",
+  "perl": "6.c",
+  "provides": {
+    "List::AllUtils": "lib/List/AllUtils.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/List-AllUtils.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/List-AllUtils.git",
+  "tags": [
     "UTILS",
     "CPAN5"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.4"
+  "test-depends": [
+  ],
+  "version": "0.0.5"
 }

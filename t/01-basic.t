@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 use List::AllUtils;
 
@@ -28,4 +28,4 @@ for @supported {
     ok defined(List::AllUtils::{$_}), "is $_ externally accessible?";
 }
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4
