@@ -2,6 +2,13 @@ Revision history for List-AllUtils
 
 {{$NEXT}}
 
+0.0.6  2021-09-09T19:49:12+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+    - Update dependencies
+
 0.0.5  2020-11-13T18:12:14+01:00
     - Change name of distribution
     - Force to highest possible Raku version

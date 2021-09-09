@@ -1,21 +1,21 @@
 {
-  "auth": "cpan:ELIZABETH",
+  "auth": "zef:lizmat",
   "authors": [
     "Elizabeth Mattijsen"
   ],
   "build-depends": [
   ],
   "depends": [
-    "List::Util:ver<0.0.9>:auth<cpan:ELIZABETH>",
-    "List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>",
-    "List::UtilsBy:ver<0.0.6>:auth<cpan:ELIZABETH>"
+    "List::Util:ver<0.0.10>:auth<zef:lizmat>",
+    "List::MoreUtils:ver<0.0.9>:auth<zef:lizmat>",
+    "List::UtilsBy:ver<0.0.7>:auth<zef:lizmat>"
   ],
   "description": "Raku port of Perl's List::AllUtils module 0.14",
   "license": "Artistic-2.0",
   "name": "List::AllUtils",
   "perl": "6.c",
   "provides": {
-    "List::AllUtils": "lib/List/AllUtils.pm6"
+    "List::AllUtils": "lib/List/AllUtils.rakumod"
   },
   "resources": [
   ],
@@ -26,5 +26,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
